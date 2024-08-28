@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="GameEngine.cpp">
+      <Filter>C++ Files</Filter>
+    </ClCompile>
+    <ClCompile Include="openCLSetup.cpp">
+      <Filter>OpenCL</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadTexture.cpp">
+      <Filter>C++ Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>C++ Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>C++ Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Gnome.cpp">
+      <Filter>C++ Files</Filter>
+    </ClCompile>
+    <ClCompile Include="camera.cpp">
+      <Filter>C++ Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Fungus.cpp">
+      <Filter>C++ Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Field.cpp">
+      <Filter>C++ Files</Filter>
+    </ClCompile>
+    <ClCompile Include="shader.cpp">
+      <Filter>C++ Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Particle.cpp">
+      <Filter>C++ Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameEngine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="openCLSetup.h">
+      <Filter>OpenCL</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Field.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Fungus.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gnome.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadTexture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Particle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="shader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vertex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GrassState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="C++ Files">
+      <UniqueIdentifier>{1d1bf2fd-f2e0-4efb-8752-7c597d2be623}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{9fa54158-2ee8-4a3e-a2e7-e5719b7e80bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OpenCL">
+      <UniqueIdentifier>{270193ee-6327-4776-b3c0-81f28b1ae1de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OpenCL KERNELS">
+      <UniqueIdentifier>{c7700d54-d32f-4b07-ab13-55182a990d1d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="kernel2.cl">
+      <Filter>OpenCL KERNELS</Filter>
+    </None>
+    <None Include="kernel.cl">
+      <Filter>OpenCL KERNELS</Filter>
+    </None>
+    <None Include="UpdateStateKernel.cl">
+      <Filter>OpenCL KERNELS</Filter>
+    </None>
+    <None Include="StateTransitions.cl">
+      <Filter>OpenCL KERNELS</Filter>
+    </None>
+  </ItemGroup>
+</Project>
